@@ -1,0 +1,38 @@
+# Salidas de compilación y publicación de .NET
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+/publish/
+
+# Visual Studio y configuración de usuario
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+.vscode/.browse.VC.db*
+
+# Resultados de pruebas y cobertura
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.cobertura.xml
+BenchmarkDotNet.Artifacts/
+
+# Archivos de entorno local y perfiles de publicación
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pubxml.user
+
+# Archivos temporales y metadatos del sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
